@@ -1,3 +1,4 @@
+ HEAD
 # Logistic Regression from Scratch
 
 A machine learning project implementing Logistic Regression from scratch using Python and NumPy, with a comparison against Scikit-learn's implementation.
@@ -41,7 +42,7 @@ Scikit-learn is used for dataset loading, preprocessing, evaluation metrics, and
 ## Results
 
 | Model | Test Accuracy | Test Log Loss |
-|---|---:|---:|
+
 | Logistic Regression from Scratch | 97.37% | 0.1078 |
 | Scikit-learn Logistic Regression | 98.25% | 0.0777 |
 
@@ -110,3 +111,7 @@ python -m pytest -v
 - Add regularization.
 - Improve automated test coverage.
 - Experiment with additional datasets.
+
+# Logistic-regression-from-scratch
+A from-scratch implementation of Logistic Regression using Numpy, with gradient descent, automated tests , and comparison against scikit-learn
+
